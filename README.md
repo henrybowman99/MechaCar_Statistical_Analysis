@@ -20,3 +20,32 @@ The above table displays the summary statistics for the PSI of the suspension co
 ![lot summary](https://user-images.githubusercontent.com/95651156/163511549-b131cc65-b8b4-4892-b9fa-9e65ae98412b.png)
 
 The above table displays the summary statistics for the PSI of the suspension coils grouped by lot. I see that lot 1 (PSI variance of 0.98) and lot 2 (PSI variance of 7.47) both comfortably stay under the 100 PSI variance threshold, while lot 3 (PSI variance of 170.29) exceeds the threshold.
+
+## T-Tests for Suspension Coils
+
+### Full Sample T-Test
+
+![Full Sample T Test](https://user-images.githubusercontent.com/95651156/163513570-c88d1aab-eb00-4394-9436-15a113768d5f.png)
+
+With a p-value of 0.06028 calculated for the full suspension sample t-test, I do not reject the null hypothesis that the true population mean is equal to 1500 PSI.
+
+### Lot 1 T-Test
+![lot 1 t test](https://user-images.githubusercontent.com/95651156/163513919-e1a1643e-8d77-4634-b2df-71b2391a1377.png)
+
+With a p-value of 1 calcualted for the lot 1 t-test, I cannot reject the null hypothesis that the true mean for lot 1 vehicles is equal to 1500 (for any significance level)
+
+### Lot 2 T-Test
+![lot 2 t test](https://user-images.githubusercontent.com/95651156/163514365-e287b9b4-b15e-422e-ab59-ad9e1aa5b9c5.png)
+
+With a p-value of .6072 calcualted for the lot 2 t-test, at a 5% significance level I cannot reject the null hypothesis that the true mean for lot 2 vehicles is equal to 1500.
+
+### Lot 3 T-Test!
+![lot 3 t test](https://user-images.githubusercontent.com/95651156/163515131-efc3cbdb-7d98-4111-ae8c-27ebd18d72b2.png)
+
+With a p-value of 0.04168 calcualted for the lot 3 t-test, at a 5% significance level I reject the null hypothesis that the true mean for lot 3 vehicles is equal to 1500. However, I would not reject the null hypothesis if I were to use a lower significance level such as 0.5%.
+
+
+
+
+
+

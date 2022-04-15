@@ -1,5 +1,9 @@
 # MechaCar Statistical Analysis
 
+## Description
+
+This file includes images and analyis that utilize data from two Mechacar datasets. I used R on R Studio to run my analyses.
+
 ## Linear Regression to Predict MPG
 
 ![MPG Regression](https://user-images.githubusercontent.com/95651156/163482923-8d44b2d5-c2f0-4903-9ab1-507902b142e2.png)
